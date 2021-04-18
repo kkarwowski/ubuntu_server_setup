@@ -9,5 +9,4 @@ PermitRootLogin prohibit-password" >> /etc/ssh/sshd_config
 echo "PermitRootLogin no"
 echo "PermitRootLogin prohibit-password"
 echo "Changes have been made to /etc/ssh/sshd_config"
-
-
+systemcrl realod sshd
